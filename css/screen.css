@@ -1,0 +1,97 @@
+html,
+body {
+	height: 100%;
+}
+
+:link,
+:active,
+:hover,
+:visited {
+	text-decoration: none;
+}
+
+article {
+	padding: 20px 0 0 0;
+	width: 640px;
+	margin: 0 auto;
+}
+
+article h1 {
+	font-size: 3em;
+}
+
+section {
+	margin: 16px 0 0 0;
+}
+
+footer {
+	background: #CCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 2px 0;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 2px 4px 4px 4px;
+	margin: 2px 0 0 0;
+}
+
+.menu li:hover {
+	
+}
+
+.menu li:hover a {
+	color: #CCC;
+}
+
+.menu li.project_extender a {
+	color: #000;
+}
+
+.menu li.project_extender a:hover {
+	color: #CCC;	
+}
+
+.case {
+	/*border-bottom: 1px #000 solid;*/
+}
+
+.case img {
+	margin: 8px 0 0 0;
+	border: 1px #DDD solid;
+}
+
+.case p,
+.case .header {
+	margin: 0 0 20px 0;
+}
+
+.case .header p {
+	font-style: italic;
+	
+}
+
+.case .header h1 {
+	margin: 0;
+}
+
+.details p {
+	font-size: 0.8em;
+}
+
+.case .links {
+	
+}
+
+.case .links .details {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #CCC;
+}
+
+.case .links li:hover .details {
+	color: #AAA;
+}
+
